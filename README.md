@@ -7,4 +7,5 @@
 5. [Horse/Human Classifier using CNN with CG Dataset](/Applications/HorseOrHuman.ipynb)
 6. [Cats and Dogs Classifier using CNN (3k Images)](/Applications/CatOrDog.ipynb)
 7. [Cats and Dogs Classifier using CNN (25k Images)](/Applications/CatOrDog_25k.ipynb)
-8. [Tensorflow GPU Test](/Applications/GPU_TrainingTest.ipynb)
+8. [Cats and Dogs Classifier using CNN (25k Augmented Images)](/Applications/CatOrDog_25k-Augmented.ipynb)
+9. [Tensorflow GPU Test](/Applications/GPU_TrainingTest.ipynb)
