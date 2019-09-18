@@ -7,6 +7,7 @@
 4. [Horse-Human Classifier Using CNN](/Applications/Horse-Human_Classifier_Using_CNN.ipynb)
 5. [Cat-Dog Classifier Using CNN (3k Images)](/Applications/Cat-Dog_Classifier_(3k_Images).ipynb)
 6. [Cat-Dog Classifier Using CNN (25k Images)](/Applications/Cat-Dog_Classifier_(25k_Images).ipynb)
+7. [GPU Training Test](/Applications/GPU_Training_Test.ipynb)
 
 
 ## Advanced Topics
