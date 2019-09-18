@@ -29,3 +29,4 @@
 ## Sequences, Time Series and Prediction
 
 ## Kaggle Kernels
+- [Hand Gesture Recognition](/Applications/Hand_Gesture_Recognition_Using_CNN.ipynb)
