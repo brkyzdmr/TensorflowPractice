@@ -7,6 +7,7 @@
     - [Basic Applications](#Basic-Applications)
     - [Advanced Topics](#Advanced-Topics)
   - [Natural Language Processing](#Natural-Language-Processing)
+    - [Basic Applications](#Basic-Applications-1)
   - [Sequences, Time Series and Prediction](#Sequences-Time-Series-and-Prediction)
   - [Kaggle Kernels](#Kaggle-Kernels)
 
@@ -25,6 +26,10 @@
 -  [Transfer Learning and Drop-out](/Applications/Transfer_Learning_and_Drop-out.ipynb)
 
 ## Natural Language Processing
+### Basic Applications
+- [Sentiment in Text](\Applications/Sentiment_in_Texts.ipynb)
+- [Sentiment Preprocessing in BBC Text Archive](\Applications/Sentiment_Preprocessing_in_BBC_Text_Archive.ipynb)
+- [Sentiment Preprocessing in Sarcasm Detection Dataset](\Applications/Sentiment_Preprocessing_in_Sarcasm_Detection_Dataset.ipynb)
 
 ## Sequences, Time Series and Prediction
 
