@@ -30,6 +30,7 @@
 - [Sentiment in Text](\Applications/Sentiment_in_Texts.ipynb)
 - [Sentiment Preprocessing in BBC Text Archive](\Applications/Sentiment_Preprocessing_in_BBC_Text_Archive.ipynb)
 - [Sentiment Preprocessing in Sarcasm Detection Dataset](\Applications/Sentiment_Preprocessing_in_Sarcasm_Detection_Dataset.ipynb)
+- [Text Classification Using Word Embeddings In IMDB Reviews Dataset](/Applications/Text_Classification_Using_Word_Embeddings_In_IMDB_Reviews_Dataset.ipynb)
 
 ## Sequences, Time Series and Prediction
 
