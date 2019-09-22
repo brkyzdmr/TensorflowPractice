@@ -32,6 +32,7 @@
 - [Sentiment Preprocessing in Sarcasm Detection Dataset](\Applications/Sentiment_Preprocessing_in_Sarcasm_Detection_Dataset.ipynb)
 - [Text Classification Using Word Embeddings In IMDB Reviews Dataset](/Applications/Text_Classification_Using_Word_Embeddings_In_IMDB_Reviews_Dataset.ipynb)
 - [Text Classification Using Word Embeddings In BBC News Archive](/Applications/Text_Classification_Using_Word_Embeddings_In_BBC_News_Archive.ipynb)
+- [Text Classification Using Word Embeddings In IMDB Reviews Dataset (Subwords8k)](/Applications/Text_Classification_Using_Word_Embeddings_In_IMDB_Reviews_Dataset(Subwords8k).ipynb)
 
 ## Sequences, Time Series and Prediction
 
