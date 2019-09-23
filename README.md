@@ -1,15 +1,53 @@
 # Tensorflow Applications
+These applications are based on the information learnt in the [TensorFlow in Practice Specialization](https://www.coursera.org/specializations/tensorflow-in-practice). 
+
+
 ## Table of contents
 
 - [Tensorflow Applications](#Tensorflow-Applications)
   - [Table of contents](#Table-of-contents)
+  - [Prerequisites](#Prerequisites)
+  - [Possible Issues](#Possible-Issues)
   - [Convolutional Neural Networks](#Convolutional-Neural-Networks)
     - [Basic Applications](#Basic-Applications)
-    - [Advanced Topics](#Advanced-Topics)
+    - [Advanced Applications](#Advanced-Applications)
   - [Natural Language Processing](#Natural-Language-Processing)
     - [Basic Applications](#Basic-Applications-1)
+    - [Advanced Applications](#Advanced-Applications-1)
+      - [IMDB Reviews Classification Comparison (Subwords)](#IMDB-Reviews-Classification-Comparison-Subwords)
+      - [IMDB Reviews Classification Comparison](#IMDB-Reviews-Classification-Comparison)
+      - [News Headline Sarcasm Classification Comparison](#News-Headline-Sarcasm-Classification-Comparison)
   - [Sequences, Time Series and Prediction](#Sequences-Time-Series-and-Prediction)
-  - [Kaggle Kernels](#Kaggle-Kernels)
+
+
+## Prerequisites
+- Some of the applications are using `Tensorflow 2.0.0-rc1` and mostly others are using `Tensorflow 1.14.0`. You can create seperate conda environment for both version. I recommend gpu versions for fast training.
+
+```shell
+pip install tensorflow-gpu==1.14.0
+```
+
+```shell
+pip install tensorflow-gpu==2.0.0-rc1
+```
+
+- Before you train in gpu you have to install and configure CuDNN, Cuda and Nvidia driver. For more information [Tensorflow2.0.0 GPU Support](https://www.tensorflow.org/install/gpu)
+
+- Most of the application using specific dataset. Thanks to `wget` command, you don't need to effor for downloading them, just run the predetermined cell. 
+
+## Possible Issues
+- If you can't plotting the result just re-run the cell.
+  ```shell
+  <Figure size 640x480 with 1 Axes>
+  <Figure size 640x480 with 1 Axes>
+  ```
+- If you install all of the gpu prerequisites, but still getting error:
+  ```shell
+    nvidia-smi
+  ```
+  Look-up the nvidia gpu memory usage, kill all of the process with `kill [process-pid]`.
+
+- If you worrying about some of the applications training time, don't worry if one epoch took less than 15 min. (Especcially for NLP applications)
 
 ## Convolutional Neural Networks
 ### Basic Applications
@@ -21,9 +59,11 @@
 - [Cat-Dog Classifier Using CNN (25k Images)](/Applications/Cat-Dog_Classifier_(25k_Images).ipynb)
 - [GPU Training Test](/Applications/GPU_Training_Test.ipynb)
 - [Multi Categorical Classification](Applications/Multi_Categorical_Classification.ipynb)
-### Advanced Topics
+- 
+### Advanced Applications
 -  [Image Augmentation](/Applications/Image_Augmentation.ipynb)
 -  [Transfer Learning and Drop-out](/Applications/Transfer_Learning_and_Drop-out.ipynb)
+- [Hand Gesture Recognition](/Applications/Hand_Gesture_Recognition_Using_CNN.ipynb)
 
 ## Natural Language Processing
 ### Basic Applications
@@ -34,7 +74,22 @@
 - [Text Classification Using Word Embeddings In BBC News Archive](/Applications/Text_Classification_Using_Word_Embeddings_In_BBC_News_Archive.ipynb)
 - [Text Classification Using Word Embeddings In IMDB Reviews Dataset (Subwords8k)](/Applications/Text_Classification_Using_Word_Embeddings_In_IMDB_Reviews_Dataset(Subwords8k).ipynb)
 
+### Advanced Applications
+- [Exploring Overfitting in NLP](/Applications/Exploring_Overfitting_in_NLP.ipynb)
+
+#### IMDB Reviews Classification Comparison (Subwords)
+- [IMDB Subwords 8K with 1D Convolutional Layer](/Applications/IMDB_Subwords_8K_with_1D_Convolutional_Layer.ipynb)
+- [IMDB Subwords 8K with Single Layer LSTM](/Applications/IMDB_Subwords_8K_with_Single_Layer_LSTM.ipynb)
+- [IMDB Subwords 8K with Multi Layer LSTM](/Applications/IMDB_Subwords_8K_with_Multi_Layer_LSTM.ipynb)
+
+#### IMDB Reviews Classification Comparison 
+- [IMDB Reviews Classification with 1D Convolutional Layer](/Applications/IMDB_Reviews_Classification_with_1D_Convolutional_Layer.ipynb)
+- [IMDB Reviews Classification with Bidirectional GRU](/Applications/IMDB_Reviews_Classification_with_Bidirectional_GRU.ipynb)
+- [IMDB Reviews Classification with Bidirectional LSTM](/Applications/IMDB_Reviews_Classification_with_Bidirectional_LSDM.ipynb)
+
+#### News Headline Sarcasm Classification Comparison
+- [Sarcasm Classification with 1D Convolutional Layer](/Applications/Sarcasm_Classification_with_1D_Convolutional_Layer.ipynb)
+- [Sarcasm Classification with Bidirectional LSTM](/Applications/Sarcasm_Classification_with_Bidirectional_LSTM.ipynb)
+
 ## Sequences, Time Series and Prediction
 
-## Kaggle Kernels
-- [Hand Gesture Recognition](/Applications/Hand_Gesture_Recognition_Using_CNN.ipynb)
