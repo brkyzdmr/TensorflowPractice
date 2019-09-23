@@ -18,6 +18,7 @@ These applications are based on the information learnt in the [TensorFlow in Pra
       - [IMDB Reviews Classification Comparison](#IMDB-Reviews-Classification-Comparison)
       - [News Headline Sarcasm Classification Comparison](#News-Headline-Sarcasm-Classification-Comparison)
   - [Sequences, Time Series and Prediction](#Sequences-Time-Series-and-Prediction)
+    - [Basic Applications](#Basic-Applications-2)
 
 
 ## Prerequisites
@@ -93,4 +94,5 @@ pip install tensorflow-gpu==2.0.0-rc1
 - [Sarcasm Classification with Bidirectional LSTM](/Applications/Sarcasm_Classification_with_Bidirectional_LSTM.ipynb)
 
 ## Sequences, Time Series and Prediction
-
+### Basic Applications
+- [Creating Random Time Series](/Applications/Creating_Random_Time_Series.ipynb)
