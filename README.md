@@ -76,6 +76,7 @@ pip install tensorflow-gpu==2.0.0-rc1
 
 ### Advanced Applications
 - [Exploring Overfitting in NLP](/Applications/Exploring_Overfitting_in_NLP.ipynb)
+- [Creating Shakespeare Sonnets Using LSTM](/Applications/Creating_Shakespeare_Sonnets_Using_LSTM.ipynb)
 
 #### IMDB Reviews Classification Comparison (Subwords)
 - [IMDB Subwords 8K with 1D Convolutional Layer](/Applications/IMDB_Subwords_8K_with_1D_Convolutional_Layer.ipynb)
