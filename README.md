@@ -19,6 +19,7 @@ These applications are based on the information learnt in the [TensorFlow in Pra
       - [News Headline Sarcasm Classification Comparison](#News-Headline-Sarcasm-Classification-Comparison)
   - [Sequences, Time Series and Prediction](#Sequences-Time-Series-and-Prediction)
     - [Basic Applications](#Basic-Applications-2)
+    - [Advanced Aplications](#Advanced-Aplications)
 
 
 ## Prerequisites
@@ -96,3 +97,13 @@ pip install tensorflow-gpu==2.0.0-rc1
 ## Sequences, Time Series and Prediction
 ### Basic Applications
 - [Creating Random Time Series](/Applications/Creating_Random_Time_Series.ipynb)
+- [Creating Dataset](/Applications/Creating_Dataset.ipynb)
+- [Naive Forecasting in Time Series](/Applications/Naive_Forecasting_in_Time_Series.ipynb)
+- [Time Series Prediction with Single Layer Neural Network](/Applications/Time_Series_Prediction_with_Single_Layer_Neural_Network.ipynb)
+- [Time Series Prediction with DNN](/Applications/Time_Series_Prediction_with_DNN.ipynb)
+
+### Advanced Aplications
+- [Time Series Prediction with RNN](/Applications/Time_Series_Prediction_with_RNN.ipynb)
+- [Time Series Prediction with LSTM](/Applications/Time_Series_Prediction_with_LSTM.ipynb)
+- [Time Series Prediction with CNN and LSTM](/Applications/Time_Series_Prediction_with_CNN_and_LSTM.ipynb)
+- [Sunspot Prediction with CNN and LSTM](/Applications/Sunspot_Prediction_with_CNN_and_LSTM.ipynb)
